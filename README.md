@@ -7,7 +7,7 @@ Assembly patches using Magikoopa to introduce a dual dub option for Fire Emblem 
 * The code.ips for your region
 
 ### Credits and special thanks
-Raytwo: Initial reverse engineering static analysis, initial discovery, programming, testing
-DeathChaos: Proof of concept, video recording, testing, general assistance and support (many "rip" have been said)
-TildeHat: Proof of concept, providing some offsets, providing files
+Raytwo: Initial reverse engineering static analysis, initial discovery, programming, testing  
+DeathChaos: Proof of concept, video recording, testing, general assistance and support (many "rip" have been said)  
+TildeHat: Proof of concept, providing some offsets, providing files  
 Collector Togami: Catgirl worshipping, providing a copy of the Ultimate Aipom Rulebook
