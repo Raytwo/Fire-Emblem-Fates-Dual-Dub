@@ -1,0 +1,27 @@
+# Force the game to think IsUsedJapanese is true
+#GameUserGlobalData_IsUsedJapanese:
+#    type:   branch
+#    link:   true
+#    addr:   0x0041f868 # A BL instruction to the original GameUserGlobalData::IsUsedJapanese()
+#    func:   GameUserGlobalData_IsUsedJapanese() # The C function in GameUserGlobalData.cpp
+
+# Replace the SoundFactoryJP::GetSoundArchivePath() function by one that opens a different file
+FilepathDataPatch:
+    type: patch
+    addr: 0x0050BEF0 # The offset where the real function is
+    src: GetSoundArchivePathJP() # The function to replace it with
+    len: 0xC # How many bytes to replace (check ../build/newcode.map to find how many bytes the new function takes when built)
+
+# Replace the SoundFactoryJP::GetIndirectSoundFilename() function by one that opens a different file
+GetIndirectSoundFilenamePatch:
+    type: patch
+    addr: 0x0050BEFC # The offset where the real function is
+    src: GetIndirectSoundFilenameJP() # The function to replace it with
+    len: 0xC # How many bytes to replace (check ../build/newcode.map to find how many bytes the new function takes when built)
+
+# Branch during the function that adds the options to add our own option and then give back control
+ProcGameConfigMenu_CreateConfigMenuPatch:
+    type: branch
+    link: false
+    addr: 0x3bc248
+    func: ProcGameConfigMenu_CreateConfigMenu_hook
