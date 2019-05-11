@@ -6,6 +6,15 @@ Assembly patches using Magikoopa to introduce a dual dub option for Fire Emblem 
 * A japanese IndirectSound.bin.lz (located in /sound)
 * The code.ips for your region
 
+## Installation instructions
+#### Make sure to use the latest version of [Luma3DS](https://github.com/AuroraWright/Luma3DS) and toggle the [[Enable game patching](https://github.com/AuroraWright/Luma3DS/wiki/Optional-features)] option to use this.
+- Download the Release appropriate for your region.
+- Extract to the root of your SD card.
+- Go to /luma/titles/<Title ID for your game and region>/romfs/sound/ and add both your japanese IRON15_Sound.bcsar and IndirectSound.bin.lz files.
+- Respectively rename them to IRON15_sound_JP.bcsar and IndirectSoundJP.bin.lz
+- ???
+- Profit!
+
 ### Credits and special thanks
 Raytwo: Initial reverse engineering static analysis, initial discovery, programming, testing  
 DeathChaos: Proof of concept, video recording, testing, general assistance and support (many "rip" have been said)  
