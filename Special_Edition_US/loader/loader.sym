@@ -1,0 +1,55 @@
+
+D:/Documents/git/Fire-Emblem-Fates-Dual-Dub/Special_Edition_US/loader/loader.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00610120 l    d  .text	00000000 .text
+006102d8 l    d  .init	00000000 .init
+006102f0 l    d  .fini	00000000 .fini
+00610308 l    d  .eh_frame	00000000 .eh_frame
+0077b430 l    d  .init_array	00000000 .init_array
+0077b434 l    d  .fini_array	00000000 .fini_array
+0077b438 l    d  .data.__dso_handle	00000000 .data.__dso_handle
+0077b43c l    d  .bss.completed.10351	00000000 .bss.completed.10351
+0077b440 l    d  .bss.object.10356	00000000 .bss.object.10356
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 d:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/8.3.0/armv6k/fpu/crti.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+00610308 l     O .eh_frame	00000000 __EH_FRAME_BEGIN__
+00610120 l     F .text	00000000 deregister_tm_clones
+0061014c l     F .text	00000000 register_tm_clones
+00610184 l     F .text	00000000 __do_global_dtors_aux
+0077b43c l     O .bss.completed.10351	00000000 completed.10351
+0077b434 l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+006101c8 l     F .text	00000000 frame_dummy
+0077b440 l     O .bss.object.10356	00000000 object.10356
+0077b430 l     O .init_array	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 loader.c
+00000000 l    df *ABS*	00000000 svc.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+0061036c l     O .eh_frame	00000000 __FRAME_END__
+00000000 l    df *ABS*	00000000 d:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/8.3.0/armv6k/fpu/crtn.o
+00610120 g       .text	00000000 __text_start
+0077b438 g     O .data.__dso_handle	00000000 .hidden __TMC_END__
+0077b438 g     O .data.__dso_handle	00000000 .hidden __dso_handle
+00610290 g     F .text	00000000 svcOpenProcess
+006102d8 g     F .init	00000000 _init
+006102a4 g     F .text	00000000 svcGetProcessId
+006102c0 g     F .text	00000000 svcControlProcessMemory
+0077b430 g       .init_array	00000000 __data_end
+006102d8 g       .text	00000000 __text_end
+006102f0 g     F .fini	00000000 _fini
+00610240 g     F .text	00000050 LoaderMain
+006101fc g     F .text	00000044 getCurrentProcessHandle
+006102b8 g     F .text	00000000 svcBreak
+0077b430 g       .init_array	00000000 __data_start
+
+
