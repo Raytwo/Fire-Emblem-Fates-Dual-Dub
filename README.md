@@ -1,6 +1,8 @@
 # Fire Emblem Fates - Dual Dub
 Assembly patches using Magikoopa to introduce a dual dub option for Fire Emblem Fates. You'll have to bring your own files though!
 
+![Screenshot](https://cdn.discordapp.com/attachments/516416628150239245/579031061615345686/2011-01-12_01-16-13.630_top.png "New menu option")
+
 ## Required files
 * A japanese IRON15_Sound.bcsar (located in /sound)
 * A japanese IndirectSound.bin.lz (located in /sound)
