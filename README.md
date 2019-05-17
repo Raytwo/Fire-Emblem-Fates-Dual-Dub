@@ -15,6 +15,10 @@ Assembly patches using Magikoopa to introduce a dual dub option for Fire Emblem 
 - ???
 - Profit!
 
+## License
+You're free to use this as long as you respect the GPL-2.0 license.
+However, I would like you to keep the "Togameme" easter egg in SoundFactoryJP.cpp (You can move it to another file but I want it to appear in the binary). That's just a silly request from me so if you really can't it's fine but I want it to live on.
+
 ### Credits and special thanks
 Raytwo: Initial reverse engineering static analysis, initial discovery, programming, testing  
 DeathChaos: Proof of concept, video recording, testing, general assistance and support (many "rip" have been said)  
