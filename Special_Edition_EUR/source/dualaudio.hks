@@ -25,3 +25,9 @@ ProcGameConfigMenu_CreateConfigMenuPatch:
     link: false
     addr: 0x3bc248
     func: ProcGameConfigMenu_CreateConfigMenu_hook
+
+LoadJPLipSynchHook:
+    type: branch
+    link: false
+    addr: 0x001b5720
+    func: LoadJPLipSynch
