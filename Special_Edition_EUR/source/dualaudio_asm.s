@@ -170,3 +170,5 @@ GameConfigMenuDualAudioVTable:
 .word DualAudio_SetValue //Subtitle::SetValue
 .word 0x3BAB90 //ConfigItem::GetValuePositionOffset
 .word 0x0
+.word 0x0
+.word 0x638024
